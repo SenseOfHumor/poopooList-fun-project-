@@ -31,7 +31,7 @@ if st.button("ADD"):
 st.markdown("---")
 
 # Display tasks
-st.subheader("Tasks")
+st.subheader("Tasks 🔧")
 tasks_to_remove = []
 for i, task in enumerate(state.todoist.todoist):
     if st.checkbox(f"{i+1}. {task}"):
