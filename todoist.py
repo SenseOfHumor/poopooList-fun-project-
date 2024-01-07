@@ -11,7 +11,7 @@ import random
 class Todoist:
 
     def __init__(self):
-        self.todoist = [""]
+        self.todoist = []
 
     def addTask(self, task: str) -> None:
         """Adds a task to the todoist list"""
